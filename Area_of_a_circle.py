@@ -1,4 +1,3 @@
-
-a=int(input())
-b=3.14*a*a
-print('%0.2f'%b)
+r=int(input())
+a=3.14*r*r
+print("{0:0.2f}".format(a))
